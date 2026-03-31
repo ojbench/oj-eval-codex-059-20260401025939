@@ -1,0 +1,8 @@
+local_test
+*.o
+*.out
+*.exe
+*.a
+*.swp
+*.swo
+*.tmp
