@@ -283,7 +283,9 @@ The test data for this problem is located at `/workspace/data/059/data_test/`.
 
 ### Submission Format
 
-Submit a single C++ source file to the Online Judge. The OJ provides its own `main.cpp` which `#include "src.hpp"`. Your submission will be written to `src.hpp` and compiled together with the OJ's driver code.
+Submit a single C++ header/source file to the Online Judge. The OJ provides its own `main.cpp` which `#include "src.hpp"`. This repository maintains the solution in `src.hpp`.
+
+Local sanity test: you can create a small driver that includes `src.hpp` and verifies behavior, but the OJ will handle main/IO.
 
 ### Submission Guidelines
 
